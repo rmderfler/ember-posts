@@ -14,7 +14,7 @@ var posts = [
  {
   id: '3',
   title: "Charity",
-  body: "I had placed my clothes."
+  body: "I had placed my bookmark."
  }
 
 ];
