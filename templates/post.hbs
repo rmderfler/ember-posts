@@ -20,3 +20,12 @@
   <button class="btn btn-primary" {{action 'edit'}}>Edit</button>
   <button class="btn btn-danger" {{action 'delete'}}>Delete</button>
 {{/if}}
+<br/>
+<h4>Comments</h4>
+{{#each comments}}
+  <li>{{text}}</li>
+{{/each}}
+
+<p>{{#link-to 'new-comment' this class="btn btn-default"}}New comment{{/link-to}}</p>
+
+{{outlet}}
